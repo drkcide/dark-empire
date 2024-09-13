@@ -1,0 +1,18 @@
+{
+  "name": "dark-empire",
+  "version": "3.0.0",
+  "description": "CSS compiler for the DarkEmpire system",
+  "scripts": {
+    "build": "sass src/scss/dark-empire.scss css/dark-empire.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/dark-empire.scss css/dark-empire.css --style=expanded --source-map --watch"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Asacolips",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
